@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Translation - APP</title>
+
+</head>
+<h1> Translator App</h1>
+
+<div id="box">
+    <div>
+        <label for="select">Translated from</label>
+        <select id="input_lang_select">
+            <option value="en" selected>English</option>
+            <option value="ar">Arabic</option>
+            <option value="zh">Chinese</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="hi">Hindi</option>
+            <option value="id">Indonesian</option>
+            <option value="ga">Irish</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <option value="ko">Korean</option>
+            <option value="pl">Polish</option>
+            <option value="pt">Portuguese</option>
+            <option value="ru">Russian</option>
+            <option value="es">Spanish</option>
+            <option value="tr">Turkish</option>
+            <option value="auto">Auto Dectect (Experimental) </option>
+        </select>
+        <textarea type="text" id="query" placeholder="Type something here....."></textarea>
+    </div>
+    <div>
+        <label for="select">Translated into</label>
+        <select id="output_lang_select">
+            <option value="en">English</option>
+            <option value="ar">Arabic</option>
+            <option value="zh">Chinese</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="hi">Hindi</option>
+            <option value="id">Indonesian</option>
+            <option value="ga">Irish</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <option value="ko">Korean</option>
+            <option value="pl">Polish</option>
+            <option value="pt">Portuguese</option>
+            <option value="ru">Russian</option>
+            <option value="es">Spanish</option>
+            <option value="tr">Turkish</option>
+        </select>
+        <textarea type="text" id="output" placeholder="Translation"></textarea>
+    </div>
+</div>
+<div id="box2">
+    <button id="tranlate" onclick="tranlate()">Tranlate</button>
+</div>
+
+<body>
+
+</body>
+<script src="script.js"></script>
+
+</html>
